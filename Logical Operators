@@ -1,0 +1,16 @@
+# Write code below 💖
+
+height = input('What is your height in centimeters? ')
+credits = input('How many credits do you have? ')
+
+if int(height) >= 137 and int(credits) >= 10:
+  print('Enjoy the ride!')
+
+elif int(height) < 137 and int(credits) >= 10:
+  print('You are not tall enough to ride! ')
+
+elif int(height) >= 137 and int(credits) < 10:
+  print('You don"t have enough credits! ')
+
+else :
+  print('You have not met the requirements! ')
