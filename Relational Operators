@@ -1,0 +1,14 @@
+# Write code below 💖
+
+pH = int(input('Enter a number from 0-12. '))
+
+if 12 >= pH > 7:
+  print('Basic')
+elif 0 <= pH < 7:
+  print('Acidic')
+elif pH <= 0:
+  print('Cannot be less than 0.')
+elif pH >= 12:
+  print('Cannot be greater than 12.')
+else:
+  print('Neutral')
